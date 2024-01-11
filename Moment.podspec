@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   
   # Metadata
   spec.name         = "Moment"
-  spec.version      = "0.3.6"
+  spec.version      = "0.4.0"
   spec.summary      = "Moment framework for supporting better shopping experience."
 
   spec.description  = <<-EOS
@@ -22,24 +22,16 @@ Pod::Spec.new do |spec|
   spec.author       = { "Fairy tech Inc." => "eng@fairytech.ai" }
   
   # Platform
-  spec.platform     = :ios, "14.5"
-  spec.ios.deployment_target = "14.5"
+  spec.platform     = :ios, "14.0"
+  spec.ios.deployment_target = "14.0"
+  
   # Source Location
-  spec.source       = { :git => "https://github.com/fairytech-external/MomentVPN.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "external/MomentVPN.git", :tag => "#{spec.version}" }", :tag => "#{spec.version}" }
   
   # Source Code
   spec.exclude_files = "Classes/Exclude"
   spec.vendored_frameworks = "Moment.xcframework"
   
   # Dependencies
-  spec.dependency "Logging", "~> 1.4.0"
-  spec.dependency "SwiftNIO", "~> 2.40.0"
-  spec.dependency "SwiftNIOExtras", "~> 1.11.0"
-  spec.dependency "SwiftNIOHTTP1", "~> 2.40.0"
-  spec.dependency "BigInt", "~> 5.2.0"
-  spec.dependency "CryptoSwift", "~> 1.7.1"
-  spec.dependency "SwiftyBase64", "~> 1.1.1"
-  spec.dependency "Moya", "~> 15.0.0"
-  spec.dependency "SwiftProtobuf", "~> 1.22.0"
 end
 

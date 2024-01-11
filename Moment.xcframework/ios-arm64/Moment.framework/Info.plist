@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.3.0</string>
+	<string>0.4.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>iPhoneOS</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>301</string>
+	<string>412</string>
 	<key>CredentialFileName</key>
 	<string>prod_config</string>
 	<key>DTCompiler</key>
@@ -43,7 +43,7 @@
 	<key>DTXcodeBuild</key>
 	<string>15A240d</string>
 	<key>MinimumOSVersion</key>
-	<string>14.5</string>
+	<string>14.0</string>
 	<key>MomentServerUrl</key>
 	<string>https://api.moment.fairytech.ai</string>
 	<key>OnPrem</key>
