@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   
   # Source Location
   spec.source       = { :git => "https://github.com/fairytech-external/MomentVPN.git", :tag => "#{spec.version}" }
-  
+
   # Source Code
   spec.exclude_files = "Classes/Exclude"
   spec.vendored_frameworks = "Moment.xcframework"
