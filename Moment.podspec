@@ -24,6 +24,7 @@ Pod::Spec.new do |spec|
   # Platform
   spec.platform     = :ios, "14.0"
   spec.ios.deployment_target = "14.0"
+  
   # Source Location
   spec.source       = { :git => "https://github.com/fairytech-external/MomentVPN.git", :tag => "#{spec.version}" }
 
@@ -33,3 +34,4 @@ Pod::Spec.new do |spec|
   
   # Dependencies
 end
+
