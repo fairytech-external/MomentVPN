@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "14.0"
   
   # Source Location
-  spec.source       = { :git => "external/MomentVPN.git", :tag => "#{spec.version}" }", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/fairytech-external/MomentVPN.git", :tag => "#{spec.version}" } 
   
   # Source Code
   spec.exclude_files = "Classes/Exclude"
