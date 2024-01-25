@@ -23,7 +23,7 @@
 		<string>iPhoneOS</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>419</string>
+	<string>440</string>
 	<key>CredentialFileName</key>
 	<string>prod_config</string>
 	<key>DTCompiler</key>
