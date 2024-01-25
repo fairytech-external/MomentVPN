@@ -30,6 +30,8 @@ let package = Package(
             name: "Moment",
             targets: ["MomentTarget"])
     ],
+    dependencies: [
+    ],
     targets: [
         .binaryTarget(
             name: "MomentBinary",

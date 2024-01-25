@@ -152,6 +152,7 @@ extension Swift.Collection {
   public func setMarketingPushConsent(agreed: Swift.Bool)
   public func setUserId(to userId: Swift.String)
   public func setVPNProfileName(to name: Swift.String)
+  public func setVPNServerName(to name: Swift.String)
   @objc deinit
 }
 extension Swift.Array {
