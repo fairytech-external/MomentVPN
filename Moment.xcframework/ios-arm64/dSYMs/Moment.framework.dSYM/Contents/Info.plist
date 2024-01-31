@@ -13,8 +13,8 @@
 		<key>CFBundleSignature</key>
 		<string>????</string>
 		<key>CFBundleShortVersionString</key>
-		<string>0.4.0</string>
+		<string>0.4.2</string>
 		<key>CFBundleVersion</key>
-		<string>440</string>
+		<string>452</string>
 	</dict>
 </plist>
