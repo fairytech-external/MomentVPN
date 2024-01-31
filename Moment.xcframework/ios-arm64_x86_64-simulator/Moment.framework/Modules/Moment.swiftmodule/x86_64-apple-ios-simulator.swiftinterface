@@ -22,6 +22,7 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 public enum MomentError : Swift.Error {
+  case userDeclinedVPNInstallation
   case vpnStartFailed(underlyingError: any Swift.Error)
   case noUserId
   case authFailed(underlyingError: any Swift.Error)
@@ -140,6 +141,10 @@ extension Swift.Collection {
 @_hasMissingDesignatedInitializers public class MomentServiceManager {
   public static let shared: Moment.MomentServiceManager
   public static func initialize(packetTunnelBundleIdentifier: Swift.String)
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func isConnectedToOwnVPN() async -> Swift.Bool
+  #endif
+  public static func isConnectedToOwnVPN(completion: @escaping (Swift.Bool) -> Swift.Void)
   #if compiler(>=5.3) && $AsyncAwait
   public func start() async throws
   #endif
