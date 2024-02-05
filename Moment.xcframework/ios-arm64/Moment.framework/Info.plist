@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>23C71</string>
+	<string>23D56</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,15 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.4.2</string>
+	<string>0.5.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>iPhoneOS</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>452</string>
-	<key>CredentialFileName</key>
-	<string>prod_config</string>
+	<string>507</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -48,8 +46,8 @@
 	<string>https://api.moment.fairytech.ai</string>
 	<key>OnPrem</key>
 	<true/>
-	<key>TargetAudience</key>
-	<string>707459475768-02f406k1jdcdefgib494agbd0uh6ehnu.apps.googleusercontent.com</string>
+	<key>TokenServerUrl</key>
+	<string>https://api.auth.moment.fairytech.ai</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
