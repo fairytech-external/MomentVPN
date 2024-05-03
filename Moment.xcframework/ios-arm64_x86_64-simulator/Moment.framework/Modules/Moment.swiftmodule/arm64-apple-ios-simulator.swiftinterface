@@ -18,6 +18,7 @@ import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public func registerProviderFactories()
 @_hasMissingDesignatedInitializers public class MomentConstants {
   public static let MOMENT_NOTIFICATION_KEY: Swift.String
   @objc deinit
@@ -48,14 +49,21 @@ public enum MatchType {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class RecognitionInfo {
-  final public let businessId: Swift.String
-  final public let matchType: Moment.MatchType
-  final public let timestamp: Foundation.Date
-  @objc deinit
+public struct RecognitionInfo {
+  public let businessId: Swift.String
+  public let matchType: Moment.MatchType
+  public let timestamp: Foundation.Date
+  public let customData: Swift.String
+}
+extension UserNotifications.UNAuthorizationStatus : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
 }
 @objc @_inheritsConvenienceInitializers open class PacketTunnelProvider : NetworkExtension.NEPacketTunnelProvider {
   public var basicDelegate: (any Moment.BasicDelegate)?
+  public var antiPhishingDelegate: (any Moment.AntiPhishingDelegate)?
+  @objc override dynamic public init()
   #if compiler(>=5.3) && $AsyncAwait
   @objc override dynamic public func startTunnel(options: [Swift.String : ObjectiveC.NSObject]? = nil) async throws
   #endif
@@ -69,31 +77,46 @@ public enum MatchType {
   @objc override dynamic public func sleep() async
   #endif
   @objc override dynamic public func wake()
-  @objc override dynamic public init()
   @objc deinit
 }
-@_Concurrency.MainActor public func handleMomentNotification(response: UserNotifications.UNNotificationResponse)
-@_hasMissingDesignatedInitializers public class MomentServiceManager {
+extension NetworkExtension.NEProviderStopReason : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class MomentServiceManager : Swift.Sendable {
   public static let shared: Moment.MomentServiceManager
   public static func initialize(packetTunnelBundleIdentifier: Swift.String)
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func start() async throws
+  #endif
+  final public func start(completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  final public func stop()
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func getVPNStatus() async -> NetworkExtension.NEVPNStatus?
+  #endif
+  final public func withVPNStatus(completion: @escaping (NetworkExtension.NEVPNStatus?) -> Swift.Void)
+  @objc deinit
+}
+extension Moment.MomentServiceManager {
   #if compiler(>=5.3) && $AsyncAwait
   public static func isConnectedToOwnVPN() async -> Swift.Bool
   #endif
   public static func isConnectedToOwnVPN(completion: @escaping (Swift.Bool) -> Swift.Void)
+}
+extension Moment.MomentServiceManager {
+  final public func setMarketingPushConsent(agreed: Swift.Bool)
+  final public func setUserId(to userId: Swift.String)
+  final public func setVPNProfileName(to name: Swift.String)
+  final public func setVPNServerName(to name: Swift.String)
+}
+extension Moment.MomentServiceManager {
+  @_Concurrency.MainActor final public func handleMomentNotification(response: UserNotifications.UNNotificationResponse)
+}
+public protocol AntiPhishingDelegate {
   #if compiler(>=5.3) && $AsyncAwait
-  public func start() async throws
+  func handleAntiPhishingDetection(domain: Swift.String) async
   #endif
-  public func start(completion: @escaping ((any Swift.Error)?) -> Swift.Void)
-  public func stop()
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getVPNStatus() async -> NetworkExtension.NEVPNStatus?
-  #endif
-  public func withVPNStatus(completion: @escaping (NetworkExtension.NEVPNStatus?) -> Swift.Void)
-  public func setMarketingPushConsent(agreed: Swift.Bool)
-  public func setUserId(to userId: Swift.String)
-  public func setVPNProfileName(to name: Swift.String)
-  public func setVPNServerName(to name: Swift.String)
-  @objc deinit
 }
 public protocol BasicDelegate {
   #if compiler(>=5.3) && $AsyncAwait

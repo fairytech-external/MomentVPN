@@ -306,13 +306,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC6Moment20PacketTunnelProvider")
 @interface PacketTunnelProvider : NEPacketTunnelProvider
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)startTunnelWithOptions:(NSDictionary<NSString *, NSObject *> * _Nullable)options completionHandler:(void (^ _Nonnull)(NSError * _Nullable))completionHandler;
 - (void)stopTunnelWithReason:(NEProviderStopReason)reason completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)handleAppMessage:(NSData * _Nonnull)messageData completionHandler:(void (^ _Nullable)(NSData * _Nullable))completionHandler;
 - (void)sleepWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)wake;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
+
 
 
 #endif
@@ -631,13 +636,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC6Moment20PacketTunnelProvider")
 @interface PacketTunnelProvider : NEPacketTunnelProvider
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)startTunnelWithOptions:(NSDictionary<NSString *, NSObject *> * _Nullable)options completionHandler:(void (^ _Nonnull)(NSError * _Nullable))completionHandler;
 - (void)stopTunnelWithReason:(NEProviderStopReason)reason completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)handleAppMessage:(NSData * _Nonnull)messageData completionHandler:(void (^ _Nullable)(NSData * _Nullable))completionHandler;
 - (void)sleepWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)wake;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
+
 
 
 #endif
