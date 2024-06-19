@@ -6,19 +6,19 @@ import Combine
 import CoreFoundation
 import CryptoKit
 import Darwin
-import Dispatch
 import Foundation
+import MachO
 @_exported import Moment
 import Network
 import NetworkExtension
 import OSLog
+import SQLite3
 import Swift
 import UIKit
 import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public func registerProviderFactories()
 @_hasMissingDesignatedInitializers public class MomentConstants {
   public static let MOMENT_NOTIFICATION_KEY: Swift.String
   @objc deinit
@@ -55,11 +55,6 @@ public struct RecognitionInfo {
   public let timestamp: Foundation.Date
   public let customData: Swift.String
 }
-extension UserNotifications.UNAuthorizationStatus : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
 @objc @_inheritsConvenienceInitializers open class PacketTunnelProvider : NetworkExtension.NEPacketTunnelProvider {
   public var basicDelegate: (any Moment.BasicDelegate)?
   public var antiPhishingDelegate: (any Moment.AntiPhishingDelegate)?
@@ -78,11 +73,6 @@ extension UserNotifications.UNAuthorizationStatus : Swift.CustomStringConvertibl
   #endif
   @objc override dynamic public func wake()
   @objc deinit
-}
-extension NetworkExtension.NEProviderStopReason : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
 }
 @_hasMissingDesignatedInitializers final public class MomentServiceManager : Swift.Sendable {
   public static let shared: Moment.MomentServiceManager

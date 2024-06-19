@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Moment-Swift.h</key>
 		<data>
-		NlKeqF3y2K6DBwWYFrS2FMDOgY4=
+		osrnJmD+CyPsYIEPqhKgzOQQ/ns=
 		</data>
 		<key>Headers/Moment.h</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		W+knYfO/etBZxMyliWutOtsL6aQ=
+		OujYd+6kQImMLpKA11CVS3I0sLc=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		3wwrM4SFGPpKdXemJmeu8yy3eFU=
+		CUFFbstc5gOueqjD/kuEHjhV0No=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3wwrM4SFGPpKdXemJmeu8yy3eFU=
+		CUFFbstc5gOueqjD/kuEHjhV0No=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gBDmg5Tig0oMFzHEBNz8tbAzi5w=
+		ccuy8Q3LGe0xnXZxpuFT/MAIDZU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hpI21/g5ZBRjZdwjGX21vp6sJoAmYB+DJFyy7Ovymdw=
+			DZC/3tIjLkCKUP24myiIwSeoW6fM5y6OEKsCqBxu+os=
 			</data>
 		</dict>
 		<key>Headers/Moment.h</key>
@@ -57,7 +57,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xiwqub4V1GINkYzwe+JmvBRXrITJNyF2cFkwVEd8nqY=
+			sRztI7GoSqDOPfzBXT9ll/VTc/2tUTvSoeMA7uiSCtc=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xiwqub4V1GINkYzwe+JmvBRXrITJNyF2cFkwVEd8nqY=
+			sRztI7GoSqDOPfzBXT9ll/VTc/2tUTvSoeMA7uiSCtc=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8fizn5ijnHaaURt7pLGCk5GY4gh5IaItE54c7LscZ7Y=
+			uPo1m6b0I35ObEZ4Pvh5gyf7vqjxiU64CQXYOgUIuyI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
