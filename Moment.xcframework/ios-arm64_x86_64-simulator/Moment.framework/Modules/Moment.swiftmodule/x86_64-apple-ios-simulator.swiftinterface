@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Moment
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Moment
 import Combine
 import CoreFoundation
 import CryptoKit
@@ -13,9 +12,12 @@ import Network
 import NetworkExtension
 import OSLog
 import SQLite3
+import Security
 import Swift
+import SwiftUI
 import UIKit
 import UserNotifications
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -23,18 +25,17 @@ import _SwiftConcurrencyShims
   public static let MOMENT_NOTIFICATION_KEY: Swift.String
   @objc deinit
 }
-public enum MomentError : Swift.Error {
+public enum VPNServiceError : Swift.Error {
   case userDeclinedVPNInstallation
   case vpnStartFailed(underlyingError: any Swift.Error)
   case noUserId
-  case authFailed(underlyingError: any Swift.Error)
+  case initFailed(underlyingError: any Swift.Error)
   case notInitialized
   case noInternetConnection
   case jailBrokenDevice
-  case unableToAccessSharedDefaults
-  case fetchInfoFailed(underlyingError: any Swift.Error)
+  case noPacketTunnelBundleIdentifier
 }
-extension Moment.MomentError : Foundation.LocalizedError {
+extension Moment.VPNServiceError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
     get
   }
@@ -74,8 +75,8 @@ public struct RecognitionInfo {
   @objc override dynamic public func wake()
   @objc deinit
 }
-@_hasMissingDesignatedInitializers final public class MomentServiceManager : Swift.Sendable {
-  public static let shared: Moment.MomentServiceManager
+@_hasMissingDesignatedInitializers final public class MomentVPNService : Swift.Sendable {
+  public static let shared: Moment.MomentVPNService
   public static func initialize(packetTunnelBundleIdentifier: Swift.String)
   #if compiler(>=5.3) && $AsyncAwait
   final public func start() async throws
@@ -88,27 +89,27 @@ public struct RecognitionInfo {
   final public func withVPNStatus(completion: @escaping (NetworkExtension.NEVPNStatus?) -> Swift.Void)
   @objc deinit
 }
-extension Moment.MomentServiceManager {
+extension Moment.MomentVPNService {
   #if compiler(>=5.3) && $AsyncAwait
   public static func isConnectedToOwnVPN() async -> Swift.Bool
   #endif
   public static func isConnectedToOwnVPN(completion: @escaping (Swift.Bool) -> Swift.Void)
 }
-extension Moment.MomentServiceManager {
+extension Moment.MomentVPNService {
   final public func setMarketingPushConsent(agreed: Swift.Bool)
   final public func setUserId(to userId: Swift.String)
   final public func setVPNProfileName(to name: Swift.String)
   final public func setVPNServerName(to name: Swift.String)
 }
-extension Moment.MomentServiceManager {
+extension Moment.MomentVPNService {
   @_Concurrency.MainActor final public func handleMomentNotification(response: UserNotifications.UNNotificationResponse)
 }
-public protocol AntiPhishingDelegate {
+public protocol AntiPhishingDelegate : AnyObject {
   #if compiler(>=5.3) && $AsyncAwait
   func handleAntiPhishingDetection(domain: Swift.String) async
   #endif
 }
-public protocol BasicDelegate {
+public protocol BasicDelegate : AnyObject {
   #if compiler(>=5.3) && $AsyncAwait
   func handleRecognitionResult(recognizedInfo: Moment.RecognitionInfo) async
   #endif
