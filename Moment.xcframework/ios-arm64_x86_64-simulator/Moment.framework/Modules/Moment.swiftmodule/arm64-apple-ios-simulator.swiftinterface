@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Moment
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature AccessLevelOnImport -enable-upcoming-feature StrictConcurrency -enable-bare-slash-regex -module-name Moment
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Combine
 import CoreFoundation
 import CryptoKit
@@ -11,7 +12,6 @@ import MachO
 import Network
 import NetworkExtension
 import OSLog
-import SQLite3
 import Security
 import Swift
 import SwiftUI
@@ -22,7 +22,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class MomentConstants {
-  public static let MOMENT_NOTIFICATION_KEY: Swift.String
+  public static let notificationKey: Swift.String
   @objc deinit
 }
 public enum VPNServiceError : Swift.Error {
@@ -40,7 +40,7 @@ extension Moment.VPNServiceError : Foundation.LocalizedError {
     get
   }
 }
-public enum MatchType {
+public enum MatchType : Swift.Sendable {
   case enter
   case cart
   case payment
@@ -50,7 +50,7 @@ public enum MatchType {
     get
   }
 }
-public struct RecognitionInfo {
+public struct RecognitionInfo : Swift.Sendable {
   public let businessId: Swift.String
   public let matchType: Moment.MatchType
   public let timestamp: Foundation.Date
@@ -60,39 +60,25 @@ public struct RecognitionInfo {
   public var basicDelegate: (any Moment.BasicDelegate)?
   public var antiPhishingDelegate: (any Moment.AntiPhishingDelegate)?
   @objc override dynamic public init()
-  #if compiler(>=5.3) && $AsyncAwait
   @objc override dynamic public func startTunnel(options: [Swift.String : ObjectiveC.NSObject]? = nil) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   @objc override dynamic public func stopTunnel(with reason: NetworkExtension.NEProviderStopReason) async
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   @objc override dynamic public func handleAppMessage(_ messageData: Foundation.Data) async -> Foundation.Data?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   @objc override dynamic public func sleep() async
-  #endif
   @objc override dynamic public func wake()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class MomentVPNService : Swift.Sendable {
   public static let shared: Moment.MomentVPNService
   public static func initialize(packetTunnelBundleIdentifier: Swift.String)
-  #if compiler(>=5.3) && $AsyncAwait
   final public func start() async throws
-  #endif
-  final public func start(completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  final public func start(completion: @escaping @Sendable ((any Swift.Error)?) -> Swift.Void)
   final public func stop()
-  #if compiler(>=5.3) && $AsyncAwait
   final public func getVPNStatus() async -> NetworkExtension.NEVPNStatus?
-  #endif
-  final public func withVPNStatus(completion: @escaping (NetworkExtension.NEVPNStatus?) -> Swift.Void)
+  final public func withVPNStatus(completion: @escaping @Sendable (NetworkExtension.NEVPNStatus?) -> Swift.Void)
   @objc deinit
 }
 extension Moment.MomentVPNService {
-  #if compiler(>=5.3) && $AsyncAwait
   public static func isConnectedToOwnVPN() async -> Swift.Bool
-  #endif
   public static func isConnectedToOwnVPN(completion: @escaping (Swift.Bool) -> Swift.Void)
 }
 extension Moment.MomentVPNService {
@@ -104,15 +90,11 @@ extension Moment.MomentVPNService {
 extension Moment.MomentVPNService {
   @_Concurrency.MainActor final public func handleMomentNotification(response: UserNotifications.UNNotificationResponse)
 }
-public protocol AntiPhishingDelegate : AnyObject {
-  #if compiler(>=5.3) && $AsyncAwait
+public protocol AntiPhishingDelegate : AnyObject, Swift.Sendable {
   func handleAntiPhishingDetection(domain: Swift.String) async
-  #endif
 }
-public protocol BasicDelegate : AnyObject {
-  #if compiler(>=5.3) && $AsyncAwait
+public protocol BasicDelegate : AnyObject, Swift.Sendable {
   func handleRecognitionResult(recognizedInfo: Moment.RecognitionInfo) async
-  #endif
 }
 extension Moment.MatchType : Swift.Equatable {}
 extension Moment.MatchType : Swift.Hashable {}
