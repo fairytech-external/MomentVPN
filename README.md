@@ -7,15 +7,17 @@
 
 # SDK Spec
 ## Size
-- 4MB(바이너리 크기)
+- 4MB (binary size)
 ## Battery
-*디바이스 종류, 배터리 사이클에 따라 달라질 수 있음*
-- 유저가 웹 서핑, 동영상 시청 등을 했을 때 1시간 기준 1%p 소모
-- 슬립 상태일 때 5시간 기준 1%p 소모
+*May vary depending on device type and battery cycle*
+
+- When the user is web surfing or watching videos, consumes approximately 1% per hour.
+- In sleep mode, consumes approximately 1% over 5 hours.
+
 ## CPU
-- 1%p 미만
+- Less than 1%
 ## Memory
-- 15~20MB(Note: iOS에서 최대 50MB로 제한되어 있음)
+- 15~20MB (Note: Limited to a maximum of 50MB on iOS)
 
 ## Support
 [eng@fairytech.com](mailto:eng@fairytech.com)
