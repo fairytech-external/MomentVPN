@@ -96,10 +96,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -133,10 +130,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -263,10 +257,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -452,10 +443,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -469,20 +457,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -1035,6 +1017,46 @@
           },
           {
             "kind": "Var",
+            "name": "unableToAccessSharedDefaults",
+            "printedName": "unableToAccessSharedDefaults",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Moment.VPNServiceError.Type) -> Moment.VPNServiceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VPNServiceError",
+                    "printedName": "Moment.VPNServiceError",
+                    "usr": "s:6Moment15VPNServiceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Moment.VPNServiceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VPNServiceError",
+                        "printedName": "Moment.VPNServiceError",
+                        "usr": "s:6Moment15VPNServiceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Moment15VPNServiceErrorO28unableToAccessSharedDefaultsyA2CmF",
+            "mangledName": "$s6Moment15VPNServiceErrorO28unableToAccessSharedDefaultsyA2CmF",
+            "moduleName": "Moment",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "errorDescription",
             "printedName": "errorDescription",
             "children": [
@@ -1190,8 +1212,18 @@
       },
       {
         "kind": "Import",
-        "name": "NetworkExtension",
-        "printedName": "NetworkExtension",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Moment"
       },
@@ -1230,40 +1262,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -1758,10 +1757,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -2405,10 +2401,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -2426,30 +2419,6 @@
         "declAttributes": [
           "AccessControl"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "Moment"
-      },
-      {
-        "kind": "Import",
-        "name": "NetworkExtension",
-        "printedName": "NetworkExtension",
-        "declKind": "Import",
-        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -2506,10 +2475,7 @@
         "name": "UserNotifications",
         "printedName": "UserNotifications",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -2533,10 +2499,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -3172,23 +3135,6 @@
       },
       {
         "kind": "Import",
-        "name": "Security",
-        "printedName": "Security",
-        "declKind": "Import",
-        "moduleName": "Moment"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3464,16 +3410,6 @@
         "moduleName": "Moment",
         "declAttributes": [
           "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -3786,26 +3722,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftProtobuf",
-        "printedName": "SwiftProtobuf",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3826,10 +3742,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -3893,10 +3806,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -3910,20 +3827,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -4040,6 +3951,16 @@
         "moduleName": "Moment",
         "declAttributes": [
           "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -4168,16 +4089,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftProtobuf",
         "printedName": "SwiftProtobuf",
         "declKind": "Import",
@@ -4228,16 +4139,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftProtobuf",
         "printedName": "SwiftProtobuf",
         "declKind": "Import",
@@ -4245,6 +4146,13 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -4325,6 +4233,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftProtobuf",
         "printedName": "SwiftProtobuf",
         "declKind": "Import",
@@ -4352,6 +4270,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -4415,10 +4340,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -4449,15 +4371,8 @@
       },
       {
         "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
-        "declKind": "Import",
-        "moduleName": "Moment"
-      },
-      {
-        "kind": "Import",
-        "name": "NetworkExtension",
-        "printedName": "NetworkExtension",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Moment"
       },
@@ -4482,13 +4397,42 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
+        "kind": "TypeDecl",
+        "name": "in_addr",
+        "printedName": "in_addr",
+        "declKind": "Struct",
+        "usr": "c:@S@in_addr",
+        "moduleName": "Darwin",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
         ]
       },
       {
@@ -8446,11 +8390,139 @@
             "mangledName": "$s7Atomics13AtomicIntegerP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefaults",
+        "printedName": "UserDefaults",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSUserDefaults",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSUserDefaults",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 143,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 159,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 191,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSClass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "0"
+    },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/common\/v1\/contract_type.pb.swift",
       "kind": "StringLiteral",
@@ -8706,14 +8778,21 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/VPN\/VPNManager.swift",
       "kind": "StringLiteral",
-      "offset": 631,
+      "offset": 639,
       "length": 12,
       "value": "\"VPNManager\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
+      "kind": "Array",
+      "offset": 220,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 218,
+      "offset": 561,
       "length": 19,
       "value": "\"PacketFlowManager\""
     },
@@ -8867,35 +8946,35 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/TCPIPPacketBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1728,
+      "offset": 1735,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/TCPIPPacketBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1784,
+      "offset": 1791,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/TCPIPPacketBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1829,
+      "offset": 1836,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/TCPIPPacketBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1878,
+      "offset": 1885,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/TCPIPPacketBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1930,
+      "offset": 1937,
       "length": 2,
       "value": "64"
     },
@@ -9238,56 +9317,56 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 144,
+      "offset": 151,
       "length": 4,
       "value": "1460"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPHandler.swift",
       "kind": "StringLiteral",
-      "offset": 199,
+      "offset": 206,
       "length": 12,
       "value": "\"TCPHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPHandler.swift",
       "kind": "StringLiteral",
-      "offset": 397,
+      "offset": 404,
       "length": 29,
       "value": "\"fairytech.moment.tcpSession\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPIPPacketBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 367,
+      "offset": 375,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPIPPacketBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 402,
+      "offset": 410,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPIPPacketBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 426,
+      "offset": 434,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPIPPacketBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 454,
+      "offset": 462,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPIPPacketBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 485,
+      "offset": 493,
       "length": 2,
       "value": "64"
     },
@@ -9572,83 +9651,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1171,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1187,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1206,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1222,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1241,
-      "length": 2,
-      "value": "28"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1263,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1844,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1860,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1876,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1892,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1913,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Header\/TCPOption.swift",
       "kind": "BooleanLiteral",
       "offset": 234,
@@ -9658,49 +9660,49 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Header\/TCPOption.swift",
       "kind": "IntegerLiteral",
-      "offset": 2501,
+      "offset": 2490,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Header\/TCPOption.swift",
       "kind": "IntegerLiteral",
-      "offset": 2530,
+      "offset": 2519,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Header\/TCPOption.swift",
       "kind": "IntegerLiteral",
-      "offset": 2566,
+      "offset": 2555,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Header\/TCPOption.swift",
       "kind": "IntegerLiteral",
-      "offset": 2595,
+      "offset": 2584,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Header\/TCPOption.swift",
       "kind": "IntegerLiteral",
-      "offset": 2646,
+      "offset": 2635,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Header\/TCPOption.swift",
       "kind": "IntegerLiteral",
-      "offset": 2688,
+      "offset": 2677,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Header\/TCPOption.swift",
       "kind": "IntegerLiteral",
-      "offset": 2715,
+      "offset": 2704,
       "length": 1,
       "value": "8"
     },
@@ -9728,7 +9730,7 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Logging\/LoggerProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 1751,
+      "offset": 1763,
       "length": 5,
       "value": "false"
     },
@@ -9770,7 +9772,7 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/MatchHistory.swift",
       "kind": "IntegerLiteral",
-      "offset": 309,
+      "offset": 317,
       "length": 1,
       "value": "0"
     },
@@ -9784,14 +9786,14 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPHandler.swift",
       "kind": "StringLiteral",
-      "offset": 180,
+      "offset": 187,
       "length": 12,
       "value": "\"UDPHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPHandler.swift",
       "kind": "StringLiteral",
-      "offset": 247,
+      "offset": 254,
       "length": 29,
       "value": "\"fairytech.moment.udpSession\""
     },
@@ -9903,28 +9905,14 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/PacketTunnelProvider\/PacketTunnelProvider.swift",
       "kind": "StringLiteral",
-      "offset": 199,
-      "length": 20,
-      "value": "\"moment_client_info\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/PacketTunnelProvider\/PacketTunnelProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 18,
-      "value": "\"moment_user_info\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/PacketTunnelProvider\/PacketTunnelProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 486,
+      "offset": 344,
       "length": 22,
       "value": "\"PacketTunnelProvider\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/PacketTunnelProvider\/PacketTunnelProvider.swift",
       "kind": "Array",
-      "offset": 538,
+      "offset": 396,
       "length": 22,
       "value": "[\"8.8.8.8\", \"8.8.4.4\"]"
     },
@@ -9945,7 +9933,14 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/NetworkConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 604,
+      "offset": 612,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/NetworkConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 747,
       "length": 5,
       "value": "false"
     },
@@ -10134,7 +10129,7 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
       "kind": "StringLiteral",
-      "offset": 273,
+      "offset": 281,
       "length": 24,
       "value": "\"NotificationController\""
     },
@@ -14439,16 +14434,23 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Info\/ClientInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2167,
+      "offset": 2755,
       "length": 14,
       "value": "\"MomentApiKey\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Info\/ClientInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2215,
+      "offset": 2803,
       "length": 17,
       "value": "\"MomentProjectId\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Info\/ClientInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2852,
+      "length": 15,
+      "value": "\"MomentGroupId\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
@@ -14635,14 +14637,14 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/IP\/IPPacket.swift",
       "kind": "IntegerLiteral",
-      "offset": 1318,
+      "offset": 1326,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/IP\/IPPacket.swift",
       "kind": "IntegerLiteral",
-      "offset": 1328,
+      "offset": 1336,
       "length": 1,
       "value": "6"
     },
@@ -14724,60 +14726,46 @@
       "value": "\"custom_data\""
     },
     {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Info\/UserInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 225,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Info\/UserInfo.swift",
-      "kind": "BooleanLiteral",
-      "offset": 260,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/MatchManager.swift",
       "kind": "StringLiteral",
-      "offset": 429,
+      "offset": 291,
       "length": 14,
       "value": "\"MatchManager\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/MatchManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 884,
+      "offset": 801,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/MatchManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 947,
+      "offset": 864,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/MatchManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1993,
+      "offset": 1996,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/MatchManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2031,
+      "offset": 2034,
       "length": 2,
-      "value": "10"
+      "value": "30"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/MatchManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2078,
-      "length": 1,
-      "value": "2"
+      "offset": 2081,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/MomentServiceCore.swift",
@@ -15109,79 +15097,16 @@
       "value": "\"expired_at\""
     },
     {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 2473,
-      "length": 37,
-      "value": "\"moment.proto.device.device_state.v1\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 2744,
-      "length": 27,
-      "value": "\".UpdateDeviceStateRequest\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2835,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 2855,
-      "length": 11,
-      "value": "\"device_id\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2873,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 2893,
-      "length": 14,
-      "value": "\"device_state\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2914,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 2934,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 6749,
-      "length": 28,
-      "value": "\".UpdateDeviceStateResponse\""
-    },
-    {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Utils.swift",
       "kind": "BooleanLiteral",
-      "offset": 790,
+      "offset": 596,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Utils.swift",
       "kind": "BooleanLiteral",
-      "offset": 1257,
+      "offset": 1063,
       "length": 4,
       "value": "true"
     },
@@ -15391,35 +15316,35 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPConnection\/TCPConnection.swift",
       "kind": "StringLiteral",
-      "offset": 348,
+      "offset": 356,
       "length": 55,
       "value": "\"TCB Updated: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPConnection\/TCPConnection.swift",
       "kind": "StringLiteral",
-      "offset": 402,
+      "offset": 410,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPConnection\/TCPConnection.swift",
       "kind": "StringLiteral",
-      "offset": 1198,
+      "offset": 1206,
       "length": 51,
       "value": "\"============ TCP Connection Created ===========\n\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPConnection\/TCPConnection.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1280,
       "length": 51,
       "value": "\"============ TCP Connection Closed ============\n\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPConnection\/TCPConnection.swift",
       "kind": "Array",
-      "offset": 1353,
+      "offset": 1361,
       "length": 2,
       "value": "[]"
     },
@@ -15510,51 +15435,121 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 113,
+      "offset": 132,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 248,
+      "offset": 267,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 466,
+      "offset": 485,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 742,
+      "offset": 761,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 889,
+      "offset": 908,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/IP\/IPHeader.swift",
       "kind": "IntegerLiteral",
-      "offset": 126,
+      "offset": 133,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/IP\/IPHeader.swift",
       "kind": "IntegerLiteral",
-      "offset": 157,
+      "offset": 164,
       "length": 2,
       "value": "60"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 140,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 156,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 209,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 226,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 263,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 2,
+      "value": "33"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS\/DNSType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Logging\/SourceLocation.swift",
@@ -16201,27 +16196,6 @@
       "value": "\"cashback_detail_html\""
     },
     {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
-      "kind": "StringLiteral",
-      "offset": 574,
-      "length": 32,
-      "value": "\"lastDeviceStateReportTimestamp\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
-      "kind": "StringLiteral",
-      "offset": 648,
-      "length": 14,
-      "value": "\"deviceConfig\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
-      "kind": "StringLiteral",
-      "offset": 701,
-      "length": 11,
-      "value": "\"matchInfo\""
-    },
-    {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/device_service_state.pb.swift",
       "kind": "BooleanLiteral",
       "offset": 1169,
@@ -16364,21 +16338,21 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPConnectionPool.swift",
       "kind": "Dictionary",
-      "offset": 263,
+      "offset": 271,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPConnectionPool.swift",
       "kind": "Dictionary",
-      "offset": 334,
+      "offset": 342,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/Handler\/TCPConnectionPool.swift",
       "kind": "Dictionary",
-      "offset": 513,
+      "offset": 521,
       "length": 3,
       "value": "[]"
     },
@@ -17475,6 +17449,97 @@
       "value": "\"BitArray\""
     },
     {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 15,
+      "value": "\"version_0_8_2\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 29,
+      "value": "\"user_id_from_client_\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 30,
+      "value": "\"moment_device_config_\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 479,
+      "length": 27,
+      "value": "\"moment_match_info_\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 51,
+      "value": "\"moment_last_device_state_report_timestamp_\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 623,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 681,
+      "length": 32,
+      "value": "\"user_marketing_consent_\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 28,
+      "value": "\"moment_client_info_\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/UserDefaultKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 787,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/cashback\/v1\/get_cashback_page_url.pb.swift",
       "kind": "StringLiteral",
       "offset": 1757,
@@ -17568,7 +17633,7 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/PacketFlowWriter.swift",
       "kind": "StringLiteral",
-      "offset": 334,
+      "offset": 342,
       "length": 29,
       "value": "\"fairytech.moment.packetFlow\""
     },

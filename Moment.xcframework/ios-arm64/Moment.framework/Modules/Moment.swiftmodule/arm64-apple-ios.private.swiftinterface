@@ -8,11 +8,9 @@ import CryptoKit
 import Darwin
 import Foundation
 import MachO
-@_exported import Moment
 import Network
 import NetworkExtension
 import OSLog
-import Security
 import Swift
 import SwiftUI
 import UIKit
@@ -34,6 +32,7 @@ public enum VPNServiceError : Swift.Error {
   case noInternetConnection
   case jailBrokenDevice
   case noPacketTunnelBundleIdentifier
+  case unableToAccessSharedDefaults
 }
 extension Moment.VPNServiceError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
@@ -96,5 +95,12 @@ public protocol AntiPhishingDelegate : AnyObject, Swift.Sendable {
 public protocol BasicDelegate : AnyObject, Swift.Sendable {
   func handleRecognitionResult(recognizedInfo: Moment.RecognitionInfo) async
 }
+#if compiler(>=5.3) && $RetroactiveAttribute
+extension Foundation.UserDefaults : @unchecked @retroactive Swift.Sendable {
+}
+#else
+extension Foundation.UserDefaults : @unchecked Swift.Sendable {
+}
+#endif
 extension Moment.MatchType : Swift.Equatable {}
 extension Moment.MatchType : Swift.Hashable {}
