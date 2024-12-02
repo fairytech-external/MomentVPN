@@ -4368,13 +4368,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "DequeModule",
+        "printedName": "DequeModule",
         "declKind": "Import",
         "moduleName": "Moment",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -9153,28 +9160,28 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Logging\/ConsoleLogging\/ConsoleLogger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1271,
+      "offset": 1014,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Logging\/ConsoleLogging\/ConsoleLogger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1759,
+      "offset": 1502,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Logging\/ConsoleLogging\/ConsoleLogger.swift",
       "kind": "BooleanLiteral",
-      "offset": 2247,
+      "offset": 1990,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Logging\/ConsoleLogging\/ConsoleLogger.swift",
       "kind": "BooleanLiteral",
-      "offset": 2762,
+      "offset": 2505,
       "length": 5,
       "value": "false"
     },
@@ -9765,6 +9772,13 @@
       "offset": 317,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/WaitingQueue.swift",
+      "kind": "Array",
+      "offset": 179,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Info\/MomentInfo.swift",
