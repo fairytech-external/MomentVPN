@@ -19,10 +19,6 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class MomentConstants {
-  public static let notificationKey: Swift.String
-  @objc deinit
-}
 public enum VPNServiceError : Swift.Error {
   case userDeclinedVPNInstallation
   case vpnStartFailed(underlyingError: any Swift.Error)
