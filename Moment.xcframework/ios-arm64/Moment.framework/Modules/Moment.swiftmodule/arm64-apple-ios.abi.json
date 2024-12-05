@@ -519,6 +519,140 @@
         "moduleName": "Moment"
       },
       {
+        "kind": "TypeDecl",
+        "name": "MomentConstants",
+        "printedName": "MomentConstants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fairyNotification",
+            "printedName": "fairyNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Moment0A9ConstantsC17fairyNotificationSSvpZ",
+            "mangledName": "$s6Moment0A9ConstantsC17fairyNotificationSSvpZ",
+            "moduleName": "Moment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment0A9ConstantsC17fairyNotificationSSvgZ",
+                "mangledName": "$s6Moment0A9ConstantsC17fairyNotificationSSvgZ",
+                "moduleName": "Moment",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fairyUrl",
+            "printedName": "fairyUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Moment0A9ConstantsC8fairyUrlSSvpZ",
+            "mangledName": "$s6Moment0A9ConstantsC8fairyUrlSSvpZ",
+            "moduleName": "Moment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment0A9ConstantsC8fairyUrlSSvgZ",
+                "mangledName": "$s6Moment0A9ConstantsC8fairyUrlSSvgZ",
+                "moduleName": "Moment",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Moment0A9ConstantsC",
+        "mangledName": "$s6Moment0A9ConstantsC",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2871,6 +3005,35 @@
             "declKind": "Func",
             "usr": "s:6Moment0A10VPNServiceC06handleA12Notification8responseySo22UNNotificationResponseC_tF",
             "mangledName": "$s6Moment0A10VPNServiceC06handleA12Notification8responseySo22UNNotificationResponseC_tF",
+            "moduleName": "Moment",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reportFairyNotificationClickedEvent",
+            "printedName": "reportFairyNotificationClickedEvent(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Moment0A10VPNServiceC35reportFairyNotificationClickedEvent8responseySo22UNNotificationResponseC_tF",
+            "mangledName": "$s6Moment0A10VPNServiceC35reportFairyNotificationClickedEvent8responseySo22UNNotificationResponseC_tF",
             "moduleName": "Moment",
             "declAttributes": [
               "Final",
@@ -9398,175 +9561,175 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 690,
-      "length": 20,
-      "value": "\"MomentNotification\""
+      "offset": 706,
+      "length": 19,
+      "value": "\"fairyNotification\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 844,
+      "offset": 759,
+      "length": 10,
+      "value": "\"fairyUrl\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 903,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 911,
+      "offset": 970,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1027,
-      "length": 20,
-      "value": "\"client_custom_link\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1150,
       "length": 24,
       "value": "\"moment_notification_id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1147,
+      "offset": 1210,
       "length": 20,
       "value": "\"moment_campaign_id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1266,
       "length": 20,
       "value": "\"moment_business_id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1289,
+      "offset": 1352,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1335,
+      "offset": 1398,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1384,
+      "offset": 1447,
       "length": 19,
       "value": "\"moment-request-id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1436,
+      "offset": 1499,
       "length": 18,
       "value": "\"moment-bundle-id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1485,
+      "offset": 1548,
       "length": 16,
       "value": "\"moment-api-key\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1533,
+      "offset": 1596,
       "length": 17,
       "value": "\"moment-pkg-name\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1583,
+      "offset": 1646,
       "length": 18,
       "value": "\"moment-device-id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1632,
+      "offset": 1695,
       "length": 15,
       "value": "\"moment-locale\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1680,
+      "offset": 1743,
       "length": 17,
       "value": "\"moment-platform\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1724,
+      "offset": 1787,
       "length": 11,
       "value": "\"moment-tz\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1770,
+      "offset": 1833,
       "length": 20,
       "value": "\"moment-sdk-version\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1822,
+      "offset": 1885,
       "length": 16,
       "value": "\"moment-service\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1873,
+      "offset": 1936,
       "length": 20,
       "value": "\"moment-retry-count\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1927,
+      "offset": 1990,
       "length": 19,
       "value": "\"moment-os-version\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1981,
+      "offset": 2044,
       "length": 20,
       "value": "\"moment-app-version\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2032,
+      "offset": 2095,
       "length": 16,
       "value": "\"moment-user-id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2084,
+      "offset": 2147,
       "length": 21,
       "value": "\"moment-device-state\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2137,
+      "offset": 2200,
       "length": 12,
       "value": "\"DD-API-KEY\""
     },
@@ -14613,14 +14776,14 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/IP\/IPPacket.swift",
       "kind": "IntegerLiteral",
-      "offset": 1326,
+      "offset": 1491,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/IP\/IPPacket.swift",
       "kind": "IntegerLiteral",
-      "offset": 1336,
+      "offset": 1501,
       "length": 1,
       "value": "6"
     },

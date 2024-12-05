@@ -19,6 +19,11 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class MomentConstants {
+  public static let fairyNotification: Swift.String
+  public static let fairyUrl: Swift.String
+  @objc deinit
+}
 public enum VPNServiceError : Swift.Error {
   case userDeclinedVPNInstallation
   case vpnStartFailed(underlyingError: any Swift.Error)
@@ -84,6 +89,7 @@ extension Moment.MomentVPNService {
 }
 extension Moment.MomentVPNService {
   @_Concurrency.MainActor final public func handleMomentNotification(response: UserNotifications.UNNotificationResponse)
+  @_Concurrency.MainActor final public func reportFairyNotificationClickedEvent(response: UserNotifications.UNNotificationResponse)
 }
 public protocol AntiPhishingDelegate : AnyObject, Swift.Sendable {
   func handleAntiPhishingDetection(domain: Swift.String) async
