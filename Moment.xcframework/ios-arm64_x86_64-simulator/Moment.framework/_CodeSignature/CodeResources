@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/Moment-Swift.h</key>
 		<data>
-		1kzh44GTtx2mrP24hTf+D4CT0Fk=
+		wOOVLku6mVs8f+XxIWg6BVF64ho=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		y7c97Ob4F83vkxF5rleVccoitnw=
+		nOnNb/LCFI/xS5575O3JCn+Q460=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		03YJtsoQER1xa42RCsdVtpkmthg=
+		Qpm0lZcMohTBiUgpOqr7YI3Rz+U=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		s08u8Uao/9isrEY6w/GCBON5OKw=
+		aRRHFjRuJIslAURacQ0ex5L59+o=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PPLkhboA/bypFJkLFD4nnBAcNnY=
+		hly/xOPkn0i/6q1+lzR8Zfd8I8I=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		s08u8Uao/9isrEY6w/GCBON5OKw=
+		aRRHFjRuJIslAURacQ0ex5L59+o=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0hyFLiVF3mZoSwUQcNc1iJ7TYEI=
+		Gs6JuOM19g66zPUDq/wkwyuUNrw=
 		</data>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		03YJtsoQER1xa42RCsdVtpkmthg=
+		Qpm0lZcMohTBiUgpOqr7YI3Rz+U=
 		</data>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BJ9qy2Ito3FV1yMVJLJwumT0sN0=
+		FJm3mHoRTlhlkBv7jyGAR7IcpWA=
 		</data>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pRXSr4BtKuCvZAH7Ywiol41FxtY=
+		5xpWvgK4JoUf86C8jZ77qjCg/6M=
 		</data>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BJ9qy2Ito3FV1yMVJLJwumT0sN0=
+		FJm3mHoRTlhlkBv7jyGAR7IcpWA=
 		</data>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HEwegj8vf38Tx6PjCeiNrpCXBms=
+		hiWnpWOiqCRANZ4/gVV89gEpvBI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,77 +67,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0fgl/KQ2s0PCbmPFUwWPE+MHwj+iXtqumtD29fjHQVw=
+			sudVTHjAV9PbQQPU2vvQ66ZTOKTVxbeJZVQWLoFA3sk=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qo9kbxsa92LcIdNDTeoN3K05JFHuTrzDKdf04uKIuME=
+			TrqMccfVQ9yLJHi0dTOZYW/sXkl4fMSttSQ9c54jn6U=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oziB8l3iAwKc9AdDU6LpISWKUsMfGwhI9joditAATGo=
+			IJVTqEe9O0y4SQkU9lNyeh2b3M0xKIhhqwh3w0OISV4=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPvQFpj5H0tIide0vpsEYiNedXd0GUMIkthf74Lk7/w=
+			muQ+alJ9Z0o0Mt5kDEkCICNUThAAGic85XQ4B3UnDeA=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oziB8l3iAwKc9AdDU6LpISWKUsMfGwhI9joditAATGo=
+			IJVTqEe9O0y4SQkU9lNyeh2b3M0xKIhhqwh3w0OISV4=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qSEPc6XmdPcw6t2mDMG7gHx6EVaYHMFVgJxXBIbg7aE=
+			5NXYdD6f87a+hw2eptZqJcfjLL3ECrRA+u0OK/j9nYQ=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qo9kbxsa92LcIdNDTeoN3K05JFHuTrzDKdf04uKIuME=
+			TrqMccfVQ9yLJHi0dTOZYW/sXkl4fMSttSQ9c54jn6U=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			22vdw5EreHr+LsDb8REXDhqWTyxKID8lU6MoccxM3Ys=
+			DA4hG386pz0GjV/7/QlvNcFejIi6tJOHCn7+A4CGBsM=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			edAImc0tM5aCtlsCHwW/X/cBmB11Eg+Kaf486QgZ28E=
+			nB9AcZ+qZUMX5HMxo51WOHeI0ntjCJRyb0kmbOKSzJE=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			22vdw5EreHr+LsDb8REXDhqWTyxKID8lU6MoccxM3Ys=
+			DA4hG386pz0GjV/7/QlvNcFejIi6tJOHCn7+A4CGBsM=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			azmWp9p2E01uUbrYsEwlaSs/AkspJRL+dZl+idFAWvI=
+			3ULB7M/TZsEEm9yRWGzu/sniYJvkwVn40nLk18z3fGE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

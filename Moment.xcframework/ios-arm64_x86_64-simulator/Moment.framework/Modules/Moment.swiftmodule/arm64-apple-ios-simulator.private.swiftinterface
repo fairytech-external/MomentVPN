@@ -1,11 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature AccessLevelOnImport -enable-upcoming-feature StrictConcurrency -enable-bare-slash-regex -module-name Moment
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature AccessLevelOnImport -enable-upcoming-feature StrictConcurrency -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Moment
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Combine
 import CoreFoundation
 import CryptoKit
 import Darwin
+import Dispatch
 import Foundation
 import MachO
 import Network
@@ -82,14 +83,12 @@ extension Moment.MomentVPNService {
   public static func isConnectedToOwnVPN(completion: @escaping (Swift.Bool) -> Swift.Void)
 }
 extension Moment.MomentVPNService {
-  final public func setMarketingPushConsent(agreed: Swift.Bool)
   final public func setUserId(to userId: Swift.String)
   final public func setVPNProfileName(to name: Swift.String)
   final public func setVPNServerName(to name: Swift.String)
 }
 extension Moment.MomentVPNService {
   @_Concurrency.MainActor final public func handleMomentNotification(response: UserNotifications.UNNotificationResponse)
-  @_Concurrency.MainActor final public func reportFairyNotificationClickedEvent(response: UserNotifications.UNNotificationResponse)
 }
 public protocol AntiPhishingDelegate : AnyObject, Swift.Sendable {
   func handleAntiPhishingDetection(domain: Swift.String) async
@@ -97,12 +96,85 @@ public protocol AntiPhishingDelegate : AnyObject, Swift.Sendable {
 public protocol BasicDelegate : AnyObject, Swift.Sendable {
   func handleRecognitionResult(recognizedInfo: Moment.RecognitionInfo) async
 }
-#if compiler(>=5.3) && $RetroactiveAttribute
+public enum BusinessCategoryType : Swift.Int, Swift.Sendable, Swift.CaseIterable {
+  case unknown, food, mall, culture, travel, electronics, infant, health, fashion, beauty, finance, living, education, etc
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [Moment.BusinessCategoryType]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [Moment.BusinessCategoryType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum CashbackCommissionType : Swift.Int, Swift.Sendable, Swift.CaseIterable {
+  case unknown, cps, cpa, cpc, cpm
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [Moment.CashbackCommissionType]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [Moment.CashbackCommissionType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum CashbackCommissionUnit : Swift.Int, Swift.Sendable, Swift.CaseIterable {
+  case unknown
+  case percentage
+  case krw
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [Moment.CashbackCommissionUnit]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [Moment.CashbackCommissionUnit] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct CashbackCommission : Swift.Sendable, Swift.Equatable {
+  public let amount: Swift.String
+  public let unit: Moment.CashbackCommissionUnit
+  public init(amount: Swift.String, unit: Moment.CashbackCommissionUnit)
+  public static func == (a: Moment.CashbackCommission, b: Moment.CashbackCommission) -> Swift.Bool
+}
+public struct CashbackProductType : Swift.Sendable, Swift.Equatable {
+  public let target: Swift.String
+  public let startDateTimestampMillis: Swift.Int64
+  public let endDateTimestampMillis: Swift.Int64
+  public let commissionType: Moment.CashbackCommissionType
+  public let commission: Moment.CashbackCommission?
+  public init(target: Swift.String, startDateTimestampMillis: Swift.Int64, endDateTimestampMillis: Swift.Int64, commissionType: Moment.CashbackCommissionType, commission: Moment.CashbackCommission?)
+  public static func == (a: Moment.CashbackProductType, b: Moment.CashbackProductType) -> Swift.Bool
+}
+public struct CashbackProgramType : Swift.Sendable, Swift.Equatable {
+  public let businessID: Swift.String
+  public let businessName: Swift.String
+  public let businessImageURL: Swift.String
+  public let category: Moment.BusinessCategoryType
+  public let url: Swift.String
+  public let programName: Swift.String
+  public let displayDisallowedCases: Swift.String
+  public let displayCaution: Swift.String
+  public let products: [Moment.CashbackProductType]
+  public let ranking: Swift.Int64
+  public let categoryName: Swift.String
+  public let primaryText: Swift.String
+  public init(businessID: Swift.String, businessName: Swift.String, businessImageURL: Swift.String, category: Moment.BusinessCategoryType, url: Swift.String, programName: Swift.String, displayDisallowedCases: Swift.String, displayCaution: Swift.String, products: [Moment.CashbackProductType], ranking: Swift.Int64, categoryName: Swift.String, primaryText: Swift.String)
+  public static func == (a: Moment.CashbackProgramType, b: Moment.CashbackProgramType) -> Swift.Bool
+}
 extension Foundation.UserDefaults : @unchecked @retroactive Swift.Sendable {
 }
-#else
-extension Foundation.UserDefaults : @unchecked Swift.Sendable {
-}
-#endif
 extension Moment.MatchType : Swift.Equatable {}
 extension Moment.MatchType : Swift.Hashable {}
+extension Moment.BusinessCategoryType : Swift.Equatable {}
+extension Moment.BusinessCategoryType : Swift.Hashable {}
+extension Moment.BusinessCategoryType : Swift.RawRepresentable {}
+extension Moment.CashbackCommissionType : Swift.Equatable {}
+extension Moment.CashbackCommissionType : Swift.Hashable {}
+extension Moment.CashbackCommissionType : Swift.RawRepresentable {}
+extension Moment.CashbackCommissionUnit : Swift.Equatable {}
+extension Moment.CashbackCommissionUnit : Swift.Hashable {}
+extension Moment.CashbackCommissionUnit : Swift.RawRepresentable {}
